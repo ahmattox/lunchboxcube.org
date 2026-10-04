@@ -1,0 +1,3 @@
+.container {
+  border-bottom: dotted 1px var(--text-color);
+}

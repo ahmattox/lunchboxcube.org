@@ -1,0 +1,35 @@
+.container {
+  display: grid;
+  gap: 4em;
+}
+
+.mainContent {
+  display: grid;
+  gap: 2em;
+  align-items: start;
+}
+
+@media screen and (min-width: 750px) {
+  .mainContent {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .schedule {
+    order: -1;
+  }
+}
+
+.secondaryContent {
+  max-width: 700px;
+}
+
+.cubes {
+  display: grid;
+  gap: 1em;
+}
+
+.locationInfo {
+  font-size: 1.3em;
+  text-align: center;
+  font-weight: bold;
+}

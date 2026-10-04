@@ -1,0 +1,36 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.cube {
+  display: grid;
+  gap: 0.5em;
+  border: dashed 2px var(--text-color);
+  padding: 1em;
+  align-content: start;
+  border-radius: 10px;
+}
+
+.cube:hover {
+  border: solid 2px var(--text-color);
+}
+
+.number {
+  color: var(--lunch-box-yellow-shade);
+}
+
+.name {
+  font-size: 1.2em;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 0.5em;
+}
+
+.designer {
+}
+
+.description {
+}

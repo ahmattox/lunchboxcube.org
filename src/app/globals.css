@@ -1,0 +1,93 @@
+html {
+  font-size: 16px;
+
+  --lunch-box-blue: #68c7bf;
+  --lunch-box-blue-shade: #058494;
+  --lunch-box-yellow: #f9c976;
+  --lunch-box-yellow-shade: #f8682e;
+  --lunch-box-beige: #fce9ce;
+
+  --text-color: #201e22;
+  --secondary-text-color: #4e4852;
+  --background-color: var(--lunch-box-beige);
+  --secondary-background-color: var(--lunch-box-yellow);
+
+  --primary-border: solid 2px var(--text-color);
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--text-color);
+  background-color: var(--background-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  line-height: 1.4em;
+}
+
+p a,
+li a {
+  text-decoration: underline;
+}
+
+::selection {
+  background: #fbebc8;
+}
+
+button {
+  appearance: none;
+  color: inherit;
+  border: none;
+}
+
+button:enabled {
+  cursor: pointer;
+}
+
+input {
+  font-size: inherit;
+  color: inherit;
+  text-align: inherit;
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
