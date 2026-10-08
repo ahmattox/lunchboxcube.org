@@ -1,0 +1,51 @@
+.container {
+  display: grid;
+  gap: 1.5em;
+}
+
+.artist {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: auto auto;
+  align-items: start;
+}
+
+.artist:nth-child(odd) {
+}
+
+.artist:nth-child(odd) .artistDetails {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.artist:nth-child(odd) .images {
+  grid-column: 2;
+}
+
+.artistDetails {
+  display: grid;
+  gap: 1em;
+}
+
+.artistDetails a {
+  text-decoration: underline;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 240px;
+  height: 150px;
+  gap: 4px;
+}
+
+.image {
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.image:nth-of-type(1) {
+  grid-row: 1 / 3;
+}

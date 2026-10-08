@@ -9,6 +9,8 @@ import { Header } from '@/components/layout/Header'
 import { Footer } from '@/components/layout/Footer'
 import { Schedule } from './Schedule'
 import { CubeList } from './CubeList'
+import { FAQ } from './FAQ'
+import { Artists } from './artists/Artists'
 
 export const metadata: Metadata = {
   title: 'Lunch Box',
@@ -41,8 +43,10 @@ export default function HomePage() {
             <div className={styles.locationInfo}>
               <p>November 7th and 8th 2026</p>
               <p>
-                Peabody Heights Brewery, 401 East 30th Street Baltimore, MD,
-                21218
+                <a href="https://www.google.com/maps/search/?api=1&query=Emmanuel+Episcopal+Church&query_place_id=ChIJWZ2H7pcEyIkR1hvc0v2faXg">
+                  Emmanuel Episcopal Church 811 Cathedral St, Baltimore, MD
+                  21201
+                </a>
               </p>
             </div>
           </Components.ContentBlock>
@@ -106,6 +110,10 @@ export default function HomePage() {
         <Typography.PrimaryHeading>The Cubes</Typography.PrimaryHeading>
         <CubeList />
       </Components.Column>
+
+      <Artists />
+
+      <FAQ />
 
       <Footer />
     </div>

@@ -14,7 +14,7 @@ export function CubeList() {
             <Components.Rule />
             <span className={styles.number}>#{index}</span>
           </div>
-          <div className={styles.designer}>{cube.designer}</div>
+          <div className={styles.designer}>Chef {cube.designer}</div>
           <p className={styles.description}>{cube.description}</p>
         </a>
       ))}

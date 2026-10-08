@@ -8,6 +8,15 @@ export function Schedule() {
     <div className={styles.container}>
       <Components.ContentBlock>
         <Components.Column secondary>
+          <Typography.SecondaryHeading>
+            Friday Evening
+          </Typography.SecondaryHeading>
+          <div>Pre event casual drafts at Peabody Heights Brewery</div>
+        </Components.Column>
+      </Components.ContentBlock>
+
+      <Components.ContentBlock>
+        <Components.Column secondary>
           <Typography.SecondaryHeading>Saturday</Typography.SecondaryHeading>
           <div className={styles.row}>
             <div>Check in</div>
@@ -29,6 +38,15 @@ export function Schedule() {
             <Components.Rule />
             <div>2 2:00 PM - 6:00 PM</div>
           </div>
+        </Components.Column>
+      </Components.ContentBlock>
+
+      <Components.ContentBlock>
+        <Components.Column secondary>
+          <Typography.SecondaryHeading>
+            Saturday Evening
+          </Typography.SecondaryHeading>
+          <div>Casual drafts at Guilford Hall</div>
         </Components.Column>
       </Components.ContentBlock>
 

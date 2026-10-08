@@ -5,9 +5,9 @@ import styles from './layout.module.css'
 
 import type { Metadata } from 'next'
 
-import { Inter } from 'next/font/google'
+import { Roboto } from 'next/font/google'
 
-const sansFont = Inter({
+const sansFont = Roboto({
   variable: '--font-sans',
   subsets: ['latin'],
   weight: ['500', '800'],
