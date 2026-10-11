@@ -184,12 +184,12 @@ export const cubes = [
     url: 'https://cubecobra.com/cube/about/theseuscube?view=primer',
     category: 'individual',
   },
-  {
-    name: 'Theseus',
-    designer: 'Parker LaMascus',
-    description:
-      'Classic creature combat with throwback combos and swingy synergies',
-    url: 'https://cubecobra.com/cube/about/131313?view=primer',
-    category: 'individual',
-  },
+  // {
+  //   name: 'Theseus',
+  //   designer: 'Parker LaMascus',
+  //   description:
+  //     'Classic creature combat with throwback combos and swingy synergies',
+  //   url: 'https://cubecobra.com/cube/about/131313?view=primer',
+  //   category: 'individual',
+  // },
 ]
